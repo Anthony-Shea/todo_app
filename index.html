@@ -8,9 +8,9 @@
 	<body>
 		<h1> todo app </h1>
 		<h2> Try it Out! </h2>
-		<input type="text" placeholder="Write anything and hit enter to add"/>
-		<button>Add</button>
-		<ul> 
+		<input type="text" id="addItem" placeholder="Write anything and hit enter to add"/>
+		<input type="button" value="Add" onclick="addItem()">
+		<ul id="toDoList"> 
 			<li> Coffee </li>
 			<input type="checkbox">
 			<li> Tea </li>
@@ -18,5 +18,6 @@
 			<li> Milk </li>
 			<input type="checkbox">
 		</ul>
+		<script src="scripts.js"></script>
 	</body>
 </html>
